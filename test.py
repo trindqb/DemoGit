@@ -1,9 +1,7 @@
 import numpy as np
 print("hello there, how are you today?")
-a = 2
-b = 3
-print(a+b)
+def sumif(a,b):
+    return a + b if a <0 else -a + b
+print(sumif(-3, 3))
 
-c = [1,2,3,4,5]
-print(c)
-print("this one has done in macOS M2")
+print(sumif(3,3))
